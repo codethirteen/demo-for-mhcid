@@ -5,41 +5,42 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <title>Using Web Fonts </title>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
+    crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css" crossorigin="anonymous">
-  <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700,700i|Roboto:400,400i,700|Spectral:700,700i" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700,700i|Roboto:400,400i,700|Spectral:700,700i"
+    rel="stylesheet">
   <style>
     html {
       font-size: 62.5%;
       text-rendering: optimizeLegibility;
-      text-size-adjust: 100%;
     }
-    
+
     header {
       padding: 3rem 3rem 0;
     }
-    
+
     h1 {
       font-family: Spectral, Georgia, serif;
       font-size: 8rem;
       line-height: 12rem;
       letter-spacing: -0.04rem;
     }
-    
+
     h1 span:nth-of-type(1) {
       color: #333;
       margin-left: -0.2rem;
     }
-    
+
     h2 {
       font: bold 3rem/4.5rem "Playfair Display", Georgia, serif;
     }
-    
+
     p {
       font-size: 1.6rem;
       font-family: Roboto, Arial, sans-serif;
     }
-    
+
     .underline {
       position: relative;
       display: inline-block;
@@ -49,7 +50,7 @@
       left: 2rem;
       background-color: #FC4948;
     }
-    
+
     @media( min-width: 990px) {
       aside {
         border-left: 0.3rem solid #F8F9FA;
@@ -61,22 +62,56 @@
 <body>
   <div class="container">
     <header>
-      <h1><span class="font-weight-bold font-italic">Using</span><span class="font-weight-bold text-muted"> web fonts</span></h1> <span class="underline"></span> </header>
+      <h1>
+        <span class="font-weight-bold font-italic">Using</span>
+        <span class="font-weight-bold text-muted"> web fonts</span>
+      </h1>
+      <span class="underline"></span>
+    </header>
     <div class="row">
       <section class="col-lg-9">
         <h2 class="text-uppercase">Web Font History</h2>
-        <p>Web typography is not a new concept. In 1998, the <a href="http://www.w3.org/Style/CSS/members.en.php3">Cascading Style Sheet (<abbr title="Cascading Style Sheets">CSS</abbr>) Working Group</a> proposed the support of the <code>@font-face</code> rule to allow any typeface to be displayed on web pages. Internet Explorer 4 was the first browser to implement it, but with no success. The proposal had no piracy protection or licensing agreement in place. As a result, <code>@font-face</code> was stalled for almost a decade. </p>
-        <p>In 2008, <code>@font-face</code> made a comeback when Apple Safari and Mozilla Firefox implemented it. In May 2009, Jeffrey Veen introduced <a href="https://www.typekit.com">Typekit</a>, a type hosting service that let designers use high-quality fonts on websites with the ease of implementation and the worry-free of licensing and cross-browser compatibility. In just two years, Adobe acquired Typekit bringing more classic types such as Garamond Pro, Minion Pro, and Myriad Pro to the web.</p>
-        <p>With the rise of responsive web design, typography is going through a new transformation like never before. Unlike a printed publication, the flexibility of the web gives designers no control of their work. Whether through smartphones, tablets, laptops or game consoles, they have no idea how their work will be viewed on a user’s device. In order to accommodate the growing number of devices coming to the market continuously, they have to embrace the fluidity of the web and let go of the notion of pixel perfect control. Designing for the unknown could be intimidating, but that also makes web design challenging and exciting. Brown is right in his statement. The web is the best place for accessing text.</p>
+        <p>Web typography is not a new concept. In 1998, the
+          <a href="http://www.w3.org/Style/CSS/members.en.php3">Cascading Style Sheet (
+            <abbr title="Cascading Style Sheets">CSS</abbr>) Working Group</a> proposed the support of the
+          <code>@font-face</code> rule to allow any typeface to be displayed on web pages. Internet Explorer 4 was the first browser
+          to implement it, but with no success. The proposal had no piracy protection or licensing agreement in place. As
+          a result,
+          <code>@font-face</code> was stalled for almost a decade. </p>
+        <p>In 2008,
+          <code>@font-face</code> made a comeback when Apple Safari and Mozilla Firefox implemented it. In May 2009, Jeffrey Veen
+          introduced
+          <a href="https://www.typekit.com">Typekit</a>, a type hosting service that let designers use high-quality fonts on websites with the ease of implementation
+          and the worry-free of licensing and cross-browser compatibility. In just two years, Adobe acquired Typekit bringing
+          more classic types such as Garamond Pro, Minion Pro, and Myriad Pro to the web.</p>
+        <p>With the rise of responsive web design, typography is going through a new transformation like never before. Unlike
+          a printed publication, the flexibility of the web gives designers no control of their work. Whether through smartphones,
+          tablets, laptops or game consoles, they have no idea how their work will be viewed on a user’s device. In order
+          to accommodate the growing number of devices coming to the market continuously, they have to embrace the fluidity
+          of the web and let go of the notion of pixel perfect control. Designing for the unknown could be intimidating,
+          but that also makes web design challenging and exciting. Brown is right in his statement. The web is the best place
+          for accessing text.</p>
       </section>
       <aside class="col-lg-3">
         <h2 class="text-uppercase">Usage</h2>
-        <p>In 2010, <a href="http://www.google.com/fonts">Google launched its own library of fonts</a> for the world to use for free. With its ease of use <abbr title="application programming interface">API</abbr> (application programming interface), Google has succeeded in making web fonts more accessible. </p>
-        <p>The <code>@font-face</code> rule is now supported in all modern browsers (Internet Explorer, Firefox, Chrome, Safari, and Opera) and mobile browsers (iOS Safari, Android, and Chrome). In addition to Typekit and Google Fonts, many foundries, including <a href="http://www.fontbureau.com/">Font Bureau</a>, <a href="https://www.fontshop.com/">FontShop</a>, <a href="http://www.typography.com/">Hoefler &amp; Co.</a>, and <a href="http://www.webtype.com/">Webtype</a>, began to offer web-font services. In just a few years, web fonts have swept the world of design. </p>
+        <p>In 2010,
+          <a href="http://www.google.com/fonts">Google launched its own library of fonts</a> for the world to use for free. With its ease of use
+          <abbr title="application programming interface">API</abbr> (application programming interface), Google has succeeded in making web fonts more accessible. </p>
+        <p>The
+          <code>@font-face</code> rule is now supported in all modern browsers (Internet Explorer, Firefox, Chrome, Safari, and
+          Opera) and mobile browsers (iOS Safari, Android, and Chrome). In addition to Typekit and Google Fonts, many foundries,
+          including
+          <a href="http://www.fontbureau.com/">Font Bureau</a>,
+          <a href="https://www.fontshop.com/">FontShop</a>,
+          <a href="http://www.typography.com/">Hoefler &amp; Co.</a>, and
+          <a href="http://www.webtype.com/">Webtype</a>, began to offer web-font services. In just a few years, web fonts have swept the world of design. </p>
       </aside>
     </div>
     <footer class="p-3 mb-2 bg-light text-dark shadow-sm">
-      <p><strong>Text source:</strong> <a href="https://prowebtype.com/history/">https://prowebtype.com/history/</a></p>
+      <p>
+        <strong>Text source:</strong>
+        <a href="https://prowebtype.com/history/">https://prowebtype.com/history/</a>
+      </p>
     </footer>
   </div>
 </body>
