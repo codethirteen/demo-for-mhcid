@@ -1,0 +1,85 @@
+html {
+    font-size: 62.5%;
+    text-rendering: optimizeLegibility;
+    text-size-adjust: 100%;
+}
+
+header {
+    padding: 3rem 3rem 0;
+}
+
+h1 {
+    font-family: Spectral, Georgia, serif;
+    font-size: 8rem;
+    line-height: 9rem;
+    letter-spacing: -0.2rem;
+    margin-bottom: 5rem;
+}
+
+h1 span:nth-of-type(1) {
+    color: #333;
+    margin-left: -0.2rem;
+}
+
+h2 {
+    font: bold 2.4rem/2.8rem "Playfair Display", Georgia, serif;
+}
+
+p {
+    font-size: 1.8rem;
+    line-height: 2.8rem;
+    color: #000;
+    font-family: Roboto, Arial, sans-serif;
+    overflow-wrap: break-word;
+    margin-bottom: 1.4rem;
+    word-break: normal;
+    word-wrap: break-word;
+}
+
+p a {
+    background-color: transparent;
+    border-bottom: 3px solid rgb(234, 87, 80);
+    -webkit-box-shadow: inset 0 -0.2rem 0 rgb(234, 87, 80);
+    box-shadow: inset 0 -0.2rem 0 rgb(234, 87, 80);
+    color: inherit;
+    text-decoration: none;
+    -webkit-transition: background .14s cubic-bezier(0.4, 0.7, 0.7, 1);
+    -o-transition: background .14s cubic-bezier(0.4, 0.7, 0.7, 1);
+    transition: background .14s cubic-bezier(0.4, 0.7, 0.7, 1);
+}
+
+p a:hover {
+    background-color: rgba(234, 87, 80, 0.2);
+    color: #000;
+    text-decoration: none;
+}
+
+.underline {
+    position: relative;
+    display: inline-block;
+    width: 10rem;
+    height: 1rem;
+    bottom: 3rem;
+    left: 2rem;
+    background-color: #FC4948;
+}
+
+.card {
+    margin-bottom: 1rem;
+}
+
+.card.active {
+    background: #333;
+    border: 5px solid rgb(234, 87, 80);
+}
+
+@media( min-width: 990px) {
+    aside {
+        border-left: 0.3rem solid #F8F9FA;
+    }
+}
+@media( max-width: 990px) {
+    #sideBar {
+        margin-bottom: 2rem;
+    }
+}
