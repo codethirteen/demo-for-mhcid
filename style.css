@@ -72,6 +72,10 @@ p a:hover {
     border: 5px solid rgb(234, 87, 80);
 }
 
+.btn-block {
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 1.6rem; 
+}
 @media( min-width: 990px) {
     aside {
         border-left: 0.3rem solid #F8F9FA;
